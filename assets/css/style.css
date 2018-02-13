@@ -1,9 +1,11 @@
-header {
-    background-color: #4aaaa5;
-}
 .vl {
     border-left: 1px #666666; 
     height: 12px;
+}
+h1 {
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 10, 100, 0, 30px;
 }
 body {
     color: #777777;
@@ -14,5 +16,9 @@ main {
 }
 
 footer {
+    border-top:  #4aaaa5 5px;
+    padding: 30px;
+    font-size: 10px;
+    text-align: center;
     background-color: #666666;
 }
