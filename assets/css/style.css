@@ -1,8 +1,9 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid gap: 20px;
-    grid-auto-rows: minmax(100px, auto)
+    grid-gap: 40px;
+    margin-left: 100px;
+    grid-auto-rows: minmax(100px, auto);
 }
 h1 {
     background-color: #4aaaa5;
@@ -13,16 +14,39 @@ h1 {
 .L1 {
     grid-column: 1;
     grid-row: 1;
+    margin-top: 50px;
 }
 nav {
     color: #777777;
+    text-decoration: none;
+}
+.R1 {
+    margin-top: 60px;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 1;
 }
 body {
     color: #777777;
 }
+.main-grid {
+   display: grid;
+   margin-left: 100px;
+   grid-gap: 40px;
+   grid-template-columns: 650px 270px;
+   grid-template-areas:
+   "main sidebar"
+   "main .....";
+   background-color: #ffffff;
+   grid-template-rows: 200px;
+}
 main {
     background-color: #ffffff;
     border-color: #dddddd;
+}
+sidebar {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
 }
 
 footer {
