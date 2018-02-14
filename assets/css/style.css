@@ -1,12 +1,18 @@
-.vl {
-    border-left: 1px #666666; 
-    height: 12px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid gap: 20px;
+    grid-auto-rows: minmax(100px, auto)
 }
 h1 {
     background-color: #4aaaa5;
     padding: 20px;
     margin-right: 400px;
     margin-left: 50px;
+}
+.L1 {
+    grid-column: 1;
+    grid-row: 1;
 }
 nav {
     color: #777777;
